@@ -1,5 +1,6 @@
 name: GitHub CI
-on: workflow_dispatch:
+on: 
+  workflow_dispatch:
 
 concurrency: 
   group: ${{ github.ref }}-${{ github.workflow }}
